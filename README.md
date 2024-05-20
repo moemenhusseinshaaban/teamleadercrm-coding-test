@@ -132,27 +132,27 @@ composer install
 - Check the rules [seeds](./problem-1-discounts-solution/discounts/db/seeds/rule_seeds.php) for the problem 3 requirements
 
 1. customer who has already bought for over € 1000, gets a discount of 10% on the whole order.
-  - Used Types:
-    - `RuleType::CUSTOMER`, and `RuleSubtype::CUSTOMER`
-  - Used Rule:
-    - `App\Services\DiscountRules\CustomerRule` -> will be applied on `condition_key` `revenue`
-    - This rule also can be applied on any other customer attribute.
-  - Applied Action:
-    - `App\Services\DiscountActions\PercentageOnTotalAmount`
+   - Used Types:
+     - `RuleType::CUSTOMER`, and `RuleSubtype::CUSTOMER`
+   - Used Rule:
+     - `App\Services\DiscountRules\CustomerRule` -> will be applied on `condition_key` `revenue`
+     - This rule also can be applied on any other customer attribute.
+   - Applied Action:
+     - `App\Services\DiscountActions\PercentageOnTotalAmount`
 
 
 2. For every product of category "Switches" (id 2), when you buy five, you get a sixth for free.
-  - Used types:
-    - `RuleType::PRODUCT`, and `RuleSubtype::CATEGORY_QUANTITY` will be used.
-  - Used Rule:
-    - Generic rule of `App\Services\DiscountRules\CategoryQuantityRule` mapped to `RuleSubtype::CATEGORY_QUANTITY` is created counting category bought quantity
-  - Applied Action:
-    - `App\Services\DiscountActions\FreeProductsOfCategoryPerQuantity`
+   - Used types:
+     - `RuleType::PRODUCT`, and `RuleSubtype::CATEGORY_QUANTITY` will be used.
+   - Used Rule:
+     - Generic rule of `App\Services\DiscountRules\CategoryQuantityRule` mapped to `RuleSubtype::CATEGORY_QUANTITY` is created counting category bought quantity
+   - Applied Action:
+     - `App\Services\DiscountActions\FreeProductsOfCategoryPerQuantity`
 
 3. If you buy two or more products of category "Tools" (id 1), you get a 20% discount on the cheapest product.
-  - This requirement will use the same types and rule of the second requirement but with different action
-  - Applied Action:
-    - `App\Services\DiscountActions\PercentageOnCheapestBought`
+   - This requirement will use the same types and rule of the second requirement but with different action
+   - Applied Action:
+     - `App\Services\DiscountActions\PercentageOnCheapestBought`
 
 
 - `RuleType::Order` contains `RuleSubtype::ORDER` and `RuleSubtype::ITEM` which handle the condition on order or items bought attributes
