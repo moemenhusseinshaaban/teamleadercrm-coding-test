@@ -1,0 +1,40 @@
+headers:
+  Content-Type: 'application/json'
+request:
+  url: http://localhost:8080/discounts
+  method: 'post'
+  body: {
+    "id": "1",
+    "customer-id": "1",
+    "items": [
+      {
+        "product-id": "B102",
+        "quantity": "10",
+        "unit-price": "4.99",
+        "total": "49.90"
+      }
+    ],
+    "total": "49.90"
+  }
+responses:
+  headers:
+    Content-Type: 'application/json'
+  success:
+    code: 200
+    body: [
+      {
+        "discount": "Total after discount is: 900",
+        "reason": "A customer who has already bought for over € 1000, gets a discount of 10% on the whole order."
+      },
+      {
+        "discount": "Earned 1 free product(s) of category (id: 2)",
+        "reason": "For every product of category \"Switches\" (id 2), when you buy five, you get a sixth for free"
+      },
+      {
+        "discount": "20% of discount on cheapest product (id: A101) it will be 7.8€ instead of 9.75€",
+        "reason": "If you buy two or more products of category \"Tools\" (id 1), you get a 20% discount on the cheapest product."
+      }
+    ]
+  validationError:
+    code: 400
+    body: 'Validation Message'

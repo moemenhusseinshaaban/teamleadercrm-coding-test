@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d8581bd7-aae4-46dd-afdd-23dd6d9aff8c",
+		"name": "discounts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19866087"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/discounts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"3\",\n  \"customer-id\": \"2\",\n  \"items\": [\n    {\n      \"product-id\": \"A101\",\n      \"quantity\": \"7\",\n      \"unit-price\": \"9.75\",\n      \"total\": \"19.50\"\n    },\n    {\n      \"product-id\": \"B102\",\n      \"quantity\": \"5\",\n      \"unit-price\": \"49.50\",\n      \"total\": \"49.50\"\n    }\n  ],\n  \"total\": \"1000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/discounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"discounts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

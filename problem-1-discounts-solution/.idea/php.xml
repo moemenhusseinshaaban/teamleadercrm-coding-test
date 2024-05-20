@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/discounts/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/discounts/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/discounts/vendor/larapack/dd" />
+      <path value="$PROJECT_DIR$/discounts/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/discounts/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/discounts/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/discounts/vendor/composer" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/discounts/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/discounts/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/discounts/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/discounts/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/discounts/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/discounts/vendor/cakephp/datasource" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/discounts/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/discounts/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/discounts/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/discounts/vendor/league/container" />
+      <path value="$PROJECT_DIR$/discounts/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/discounts/vendor/nyholm/psr7-server" />
+      <path value="$PROJECT_DIR$/discounts/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/discounts/vendor/cakephp/core" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/discounts/vendor/cakephp/utility" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/discounts/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/discounts/vendor/cakephp/database" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/discounts/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/discounts/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/discounts/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/discounts/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/discounts/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/discounts/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/discounts/vendor/respect/validation" />
+      <path value="$PROJECT_DIR$/discounts/vendor/respect/stringifier" />
+      <path value="$PROJECT_DIR$/discounts/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/discounts/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/discounts/vendor/vlucas/phpdotenv" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/discounts/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
